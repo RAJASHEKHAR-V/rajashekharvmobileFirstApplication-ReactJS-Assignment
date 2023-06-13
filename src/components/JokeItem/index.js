@@ -1,3 +1,6 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min'
+
 import './index.css'
 
 const JokeItem = props => {
@@ -14,7 +17,7 @@ const JokeItem = props => {
       <td className="cell-style">{id}</td>
       <td className="cell-style">{joke}</td>
       <td className="cell-style">{language}</td>
-      <td className={`cell-style ${addStyle}`}>{category}</td>
+      <td className={`cell-style ${addStyle} mr-3`}>{category}</td>
     </tr>
   )
 }

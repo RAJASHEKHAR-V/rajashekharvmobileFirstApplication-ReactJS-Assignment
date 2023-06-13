@@ -63,13 +63,13 @@ const Home = props => {
 
   // rendering the jsx on the website
   return (
-    <div className="joke-container p-3">
+    <div className="joke-container m-3">
       {jokes.jokesList.length > 0 ? (
         <table className="joke-table">
           <th className="header-style">Id</th>
-          <th className="header-style joke-header">Joke</th>
+          <th className="header-style">Joke</th>
           <th className="header-style">Language</th>
-          <th className="header-style">Category</th>
+          <th className="header-style category-header">Category</th>
           <tbody>
             {jokes.jokesList.map(eachJoke => (
               <JokeItem key={eachJoke.id} jokeObject={eachJoke} />

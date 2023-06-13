@@ -23,6 +23,7 @@
   font-weight: 700;
   font-size: 28px;
   text-align: center;
+  margin-right: 10px;
 }
 
 .logout {
@@ -49,17 +50,17 @@
   .header-style {
     font-size: 14px;
   }
-  .joke-header {
-    min-width: 280px;
+  .category-header {
+    max-width: 60px !important;
   }
   .logout {
-    font-size: 10px;
+    font-size: 9px;
   }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
   .header-style {
-    font-size: 16px;
+    font-size: 15px;
   }
   .logout {
     font-size: 12px;
