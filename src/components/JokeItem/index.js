@@ -17,7 +17,7 @@ const JokeItem = props => {
       <td className="cell-style">{id}</td>
       <td className="cell-style">{joke}</td>
       <td className="cell-style">{language}</td>
-      <td className={`cell-style ${addStyle} mr-3`}>{category}</td>
+      <td className={`cell-style ${addStyle}`}>{category}</td>
     </tr>
   )
 }
