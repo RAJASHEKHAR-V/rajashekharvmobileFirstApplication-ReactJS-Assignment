@@ -1,3 +1,4 @@
-Assignment
-Credentials For both the Authetication  methods to Login and Access the Data.
-USER-NAME:raja   PASSWORD:raja@2021
+User
+Credentials For both the Authetication  methods to Login and Access the Data.    
+user-name: raja                                  
+password: raja@2021
